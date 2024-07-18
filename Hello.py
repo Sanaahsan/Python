@@ -1,1 +1,2 @@
-print("Hello World!")
+# Print a string
+print("Hello World!");
