@@ -23,6 +23,24 @@ print(Percentage);
 
 # WAP to swap values of two numbers
 
+# 1.Using 3rd varibale
+
+a=10;
+b=5;
+temp=a;
+a=b;
+b=temp;
+print("a=",a,"b=",b);
+
+# 2. Without using 3rd varibale
+
+a=10;
+b=5;
+a=a+b;
+b=a-b;
+a=a-b;
+print("a=",a,"b=",b);
+
 
 # WAP to accept total sales amount and find profit amount @5%
 
