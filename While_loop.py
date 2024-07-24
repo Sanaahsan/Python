@@ -172,6 +172,18 @@ print(rev);
     
 
 # WAP to check whether a given number is a palindrome or not
+n=int(input("Enter your number:"));
+original=n;
+rev=0;
+while(n>0):
+    rev=(rev*10)+ n%10
+    n=n//10;
+if(original==rev):
+    print("Yes, it is a palindrome")
+else:
+    print("No,it's not a palindrome")    
+
+
 
 # WAP to check whether a given number is pime or not
 # WAP to print factorial of a given number
