@@ -1,17 +1,13 @@
 
-# Plaindrome 525
-
-n=int(input("Enter your number:"));
-original=n;
-rev=0;
-while(n>0):
-    rev=(rev*10)+n%10
-    n=n//10;
-if (original==rev):
-    print("Yes");
+# Prime or not
+n=int(input("Enter your number:"))
+i=1;
+count=0;
+while(i<=n):
+    if(n%i==0):
+        count=count+1
+    i=i+1;
+if(count==2):
+    print("It is a prime number")
 else:
-    print("No")    
-
-
-
-
+    print("It is not a prime number")        
