@@ -44,6 +44,7 @@ print("a=",a,"b=",b);
 
 # WAP to accept total sales amount and find profit amount @5%
 
+
 # WAP to check whether an 'age' is eligible for voting or not
 
 age=int(input("Enter your age"));
