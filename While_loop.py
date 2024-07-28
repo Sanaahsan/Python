@@ -201,8 +201,24 @@ else:
 
 
 # WAP to print factorial of a given number
+i=int(input("Enter your number:"))
+fac=1
+while(i>0):
+    fac=fac*i
+    i=i+1;
+print(fac)
 
 
 # WAP to print fibonacci series upto a given number
+
+n=int(input("Enter your number:"))
+x=0
+y=1
+z=0
+while(z<=n):
+    print(z)
+    x=y
+    y=z
+    z=x+y
 
 
