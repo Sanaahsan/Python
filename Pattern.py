@@ -160,7 +160,8 @@ while(i<=5):
         j=j+1
     k=k+2
     print()
-    i=i+1                   
+    i=i+1     
+                #  jhbhb bh 
 
 
     
